@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FFF",
+    "FFF",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "item": "gears_of_valor:fallen"
+    }
+  },
+  "result": {
+    "id": "gears_of_valor:fallen_core",
+    "count": 1
+  }
+}

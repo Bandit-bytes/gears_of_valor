@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  T",
+    " F ",
+    "S  "
+  ],
+  "key": {
+    "F": {
+      "item": "gears_of_valor:noble_gem"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "T": {
+      "item": "gears_of_valor:soulinite"
+    }
+  },
+  "result": {
+    "id": "gears_of_valor:furys_call",
+    "count": 1
+  }
+}

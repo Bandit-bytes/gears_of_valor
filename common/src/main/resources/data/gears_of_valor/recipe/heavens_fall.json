@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CIT",
+    "IGI",
+    "SI "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "C": {
+      "item": "gears_of_valor:fallen_core"
+    },
+    "T": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "id": "gears_of_valor:heavens_fall",
+    "count": 1
+  }
+}

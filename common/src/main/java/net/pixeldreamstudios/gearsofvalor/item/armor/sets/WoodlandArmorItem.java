@@ -33,11 +33,11 @@ public class WoodlandArmorItem extends GearsArmorItem {
     public void inventoryTick(ItemStack stack, Level level, Entity entity, int slotId, boolean isSelected) {
         if (!level.isClientSide() && entity instanceof Player player) {
             if (hasFullSet(player)) {
-                player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 220, 0, false, true, true));
-                player.addEffect(new MobEffectInstance(MobEffects.JUMP, 220, 0, false, true, true));
+                player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 220, 0, false, false, false));
+                player.addEffect(new MobEffectInstance(MobEffects.JUMP, 220, 0, false, false, false));
 
                 if (player.isCrouching() && player.tickCount % 20 == 0) {
-                    player.addEffect(new MobEffectInstance(MobEffects.INVISIBILITY, 40, 0, false, true, true));
+                    player.addEffect(new MobEffectInstance(MobEffects.INVISIBILITY, 40, 0, false, false, false));
                 }
 
                 level.getEntitiesOfClass(LivingEntity.class, player.getBoundingBox().inflate(2), e ->
@@ -53,7 +53,7 @@ public class WoodlandArmorItem extends GearsArmorItem {
 
                 if (level.getBlockState(player.blockPosition().below()).getBlock().defaultMapColor().col == 0x4C7639 ||
                         level.getBlockState(player.blockPosition().below()).getBlock().defaultMapColor().col == 0x3E5F3D) {
-                    player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 60, 0, false, false, true));
+                    player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 60, 0, false, false, false));
                 }
             }
         }
@@ -65,9 +65,13 @@ public class WoodlandArmorItem extends GearsArmorItem {
                 entity.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof WoodlandArmorItem;
     }
     @Override
-    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-        tooltipComponents.add(Component.translatable("item.gears_of_valor.woodland_armor.tooltip").withStyle(ChatFormatting.ITALIC));
+    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
+        tooltip.add(Component.translatable("item.gears_of_valor.woodland_armor.tooltip.line1").withStyle(ChatFormatting.ITALIC));
+        tooltip.add(Component.translatable("item.gears_of_valor.woodland_armor.tooltip.line2"));
+        tooltip.add(Component.translatable("item.gears_of_valor.woodland_armor.tooltip.line3"));
+        tooltip.add(Component.translatable("item.gears_of_valor.woodland_armor.tooltip.line4"));
     }
+
     @Override
     public boolean isValidRepairItem(ItemStack toRepair, ItemStack repair) {
         return repair.is(Items.IRON_INGOT);

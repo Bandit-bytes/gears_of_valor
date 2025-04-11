@@ -20,7 +20,10 @@ public class HarbringerRenderer  extends AzItemRenderer {
     public HarbringerRenderer() {
         super(
                 AzItemRendererConfig.builder(GEO, TEX)
-                        .setAnimatorProvider(HarbringerAnimator::new).build()
+                        .setAnimatorProvider(HarbringerAnimator::new)
+                        .useEntityGuiLighting()
+                        .useNewOffset(false)
+                        .build()
         );
     }
 }

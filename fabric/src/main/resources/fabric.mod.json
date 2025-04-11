@@ -3,15 +3,16 @@
   "id": "gears_of_valor",
   "version": "${version}",
   "name": "Gears Of Valor",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Valor Gear Weapons and Armors!",
   "authors": [
-    "Me!"
+    "PixelDreamStudios",
+    "Bandit-Bytes"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
-  "license": "CC0-1.0",
+  "license": "ARR",
   "icon": "assets/gears_of_valor/icon.png",
   "environment": "*",
   "entrypoints": {

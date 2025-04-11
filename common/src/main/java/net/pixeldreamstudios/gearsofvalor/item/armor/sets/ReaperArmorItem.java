@@ -35,8 +35,8 @@ public class ReaperArmorItem extends GearsArmorItem {
             if (hasFullSet(player)) {
                 {
                     if (player.getHealth() / player.getMaxHealth() <= 0.4f) {
-                        player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 100, 1, false, true, true));
-                        player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 100, 0, false, true, true));
+                        player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 100, 1, false, false, false));
+                        player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 100, 0, false, false, false));
                     }
                     level.getEntitiesOfClass(LivingEntity.class, player.getBoundingBox().inflate(5), e ->
                             e != player && !(e instanceof Player) && e.isAlive()
@@ -58,9 +58,12 @@ public class ReaperArmorItem extends GearsArmorItem {
                 entity.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof ReaperArmorItem;
     }
     @Override
-    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-        tooltipComponents.add(Component.translatable("item.gears_of_valor.reaper_armor.tooltip").withStyle(ChatFormatting.ITALIC));
+    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
+        tooltip.add(Component.translatable("item.gears_of_valor.reaper_armor.tooltip.line1").withStyle(ChatFormatting.ITALIC));
+        tooltip.add(Component.translatable("item.gears_of_valor.reaper_armor.tooltip.line2"));
+        tooltip.add(Component.translatable("item.gears_of_valor.reaper_armor.tooltip.line3"));
     }
+
     @Override
     public boolean isValidRepairItem(ItemStack toRepair, ItemStack repair) {
         return repair.is(Items.IRON_INGOT);

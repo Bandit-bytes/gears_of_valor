@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "gears_of_valor:soulinite_ore_placed",
+  "step": "underground_ores"
+}

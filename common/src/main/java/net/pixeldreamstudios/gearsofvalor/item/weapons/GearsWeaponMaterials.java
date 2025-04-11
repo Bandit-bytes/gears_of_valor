@@ -20,6 +20,30 @@ public class GearsWeaponMaterials implements Tier {
             BlockTags.NEEDS_DIAMOND_TOOL,
             () -> Ingredient.of(Items.IRON_INGOT));
 
+    public static final Tier FURY_TIER = new GearsWeaponMaterials(
+            1561,
+            10.0f,
+            5.0f,
+            12,
+            BlockTags.NEEDS_DIAMOND_TOOL,
+            () -> Ingredient.of(Items.IRON_INGOT));
+
+    public static final Tier HEAVENS_TIER = new GearsWeaponMaterials(
+            1561,
+            11.0f,
+            5.0f,
+            12,
+            BlockTags.NEEDS_DIAMOND_TOOL,
+            () -> Ingredient.of(Items.IRON_INGOT));
+
+    public static final Tier SHADOW_TIER = new GearsWeaponMaterials(
+            1561,
+            12.0f,
+            5.0f,
+            12,
+            BlockTags.NEEDS_DIAMOND_TOOL,
+            () -> Ingredient.of(Items.IRON_INGOT));
+
 
     int uses;
     float damage;

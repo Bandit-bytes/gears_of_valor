@@ -34,7 +34,7 @@ public class ArismasArmorItem extends GearsArmorItem {
         if (!level.isClientSide() && entity instanceof Player player) {
             if (hasFullSet(player)) {
                 {
-                    player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 220, 1, false, true, true));
+                    player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 220, 1, false, false, false));
                 }
                 // Slow nearby enemies
                 level.getEntitiesOfClass(LivingEntity.class, player.getBoundingBox().inflate(5), e -> e != player && e.isAlive()).forEach(mob -> {
@@ -50,9 +50,13 @@ public class ArismasArmorItem extends GearsArmorItem {
                 entity.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof ArismasArmorItem;
     }
     @Override
-    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-        tooltipComponents.add(Component.translatable("item.gears_of_valor.arismas_armor.tooltip").withStyle(ChatFormatting.ITALIC));
+    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
+        tooltip.add(Component.translatable("item.gears_of_valor.arismas_armor.tooltip.line1").withStyle(ChatFormatting.ITALIC));
+        tooltip.add(Component.translatable("item.gears_of_valor.arismas_armor.tooltip.line2"));
+        tooltip.add(Component.translatable("item.gears_of_valor.arismas_armor.tooltip.line3"));
+        tooltip.add(Component.translatable("item.gears_of_valor.arismas_armor.tooltip.line4"));
     }
+
     @Override
     public boolean isValidRepairItem(ItemStack toRepair, ItemStack repair) {
         return repair.is(Items.IRON_INGOT);

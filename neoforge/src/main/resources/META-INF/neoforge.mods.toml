@@ -7,9 +7,9 @@ license = "ARR"
 modId = "gears_of_valor"
 version = "${version}"
 displayName = "Gears Of Valor"
-authors = "PixelDreamStudios"
+authors = "PixelDreamStudios, Bandit-Bytes"
 description = '''
-Valor Gear.
+Valor Gear Weapons and Armors!
 '''
 #logoFile = ""
 

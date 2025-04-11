@@ -4,9 +4,11 @@ import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import mod.azure.azurelib.rewrite.animation.cache.AzIdentityRegistry;
 import mod.azure.azurelib.rewrite.render.armor.AzArmorRendererRegistry;
+import mod.azure.azurelib.rewrite.render.item.AzItemRendererRegistry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
 import net.pixeldreamstudios.gearsofvalor.item.armor.sets.GearsArmorItem;
+import net.pixeldreamstudios.gearsofvalor.item.weapons.weapons.WeaponItem;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -44,6 +46,9 @@ public class ArmorRegistering {
             Item item = entry.getValue().get();
             if (item instanceof GearsArmorItem) {
                 AzArmorRendererRegistry.register(item, ((GearsArmorItem) item).RENDERER);
+            }
+            if (item instanceof WeaponItem) {
+                AzItemRendererRegistry.register(item, ((WeaponItem) item).RENDERER);
             }
         }
     }

@@ -16,6 +16,7 @@ public class TabRegistry {
             () -> CreativeTabRegistry.create(
                     Component.translatable("category." + GearsOfValorMod.MOD_ID),
                     () -> new ItemStack(ArmorRegistering.getItem(GearsOfValorMod.MOD_ID, "paladin_helmet"))
+
             )
     );
 

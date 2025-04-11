@@ -33,13 +33,13 @@ public class PaladinArmorItem extends GearsArmorItem {
     public void inventoryTick(ItemStack stack, Level level, Entity entity, int slotId, boolean isSelected) {
         if (!level.isClientSide() && entity instanceof Player player) {
             if (hasFullSet(player)) {
-                player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 220, 0, false, true, true));
-                player.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 220, 0, false, true, true));
+                player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 220, 0, false, false, false));
+                player.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 220, 0, false, false, false));
 
                 // Buff nearby players
                 level.getEntitiesOfClass(Player.class, player.getBoundingBox().inflate(5), p -> p != player).forEach(ally -> {
-                    ally.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 100, 0, false, false, true));
-                    ally.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 100, 0, false, false, true));
+                    ally.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 100, 0, false, false, false));
+                    ally.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 100, 0, false, false, false));
                 });
 
                 // Smite undead
@@ -51,8 +51,8 @@ public class PaladinArmorItem extends GearsArmorItem {
                     }
                 });
                 if (player.getHealth() / player.getMaxHealth() < 0.3f && cooldown <= 0) {
-                    player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 120, 1, false, false, true));
-                    player.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 120, 0, false, false, true));
+                    player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 120, 1, false, false, false));
+                    player.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 120, 0, false, false, false));
                     cooldown = 200;
                 }
 
@@ -69,9 +69,13 @@ public class PaladinArmorItem extends GearsArmorItem {
                 entity.getItemBySlot(EquipmentSlot.FEET).getItem() instanceof PaladinArmorItem;
     }
     @Override
-    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-        tooltipComponents.add(Component.translatable("item.gears_of_valor.paldin_armor.tooltip").withStyle(ChatFormatting.ITALIC));
+    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
+        tooltip.add(Component.translatable("item.gears_of_valor.paldin_armor.tooltip.line1").withStyle(ChatFormatting.ITALIC));
+        tooltip.add(Component.translatable("item.gears_of_valor.paldin_armor.tooltip.line2"));
+        tooltip.add(Component.translatable("item.gears_of_valor.paldin_armor.tooltip.line3"));
+        tooltip.add(Component.translatable("item.gears_of_valor.paldin_armor.tooltip.line4"));
     }
+
     @Override
     public boolean isValidRepairItem(ItemStack toRepair, ItemStack repair) {
         return repair.is(Items.IRON_INGOT);
