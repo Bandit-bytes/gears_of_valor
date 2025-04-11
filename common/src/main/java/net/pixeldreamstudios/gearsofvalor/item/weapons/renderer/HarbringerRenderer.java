@@ -1,0 +1,26 @@
+package net.pixeldreamstudios.gearsofvalor.item.weapons.renderer;
+
+import mod.azure.azurelib.rewrite.render.item.AzItemRenderer;
+import mod.azure.azurelib.rewrite.render.item.AzItemRendererConfig;
+import net.minecraft.resources.ResourceLocation;
+import net.pixeldreamstudios.gearsofvalor.GearsOfValorMod;
+import net.pixeldreamstudios.gearsofvalor.item.weapons.animator.HarbringerAnimator;
+
+public class HarbringerRenderer  extends AzItemRenderer {
+    private static final ResourceLocation GEO = ResourceLocation.fromNamespaceAndPath(
+            GearsOfValorMod.MOD_ID,
+            "geo/weapon/harbringer.geo.json"
+    );
+
+    private static final ResourceLocation TEX = ResourceLocation.fromNamespaceAndPath(
+            GearsOfValorMod.MOD_ID,
+            "textures/weapon/harbringer.png"
+    );
+
+    public HarbringerRenderer() {
+        super(
+                AzItemRendererConfig.builder(GEO, TEX)
+                        .setAnimatorProvider(HarbringerAnimator::new).build()
+        );
+    }
+}

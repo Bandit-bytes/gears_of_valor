@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/gears_of_valor.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/gears_of_valor.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/gears_of_valor.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/gears_of_valor.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/gears_of_valor.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/gears_of_valor.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/gears_of_valor.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/gears_of_valor.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/gears_of_valor.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/gears_of_valor.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/gears_of_valor.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/gears_of_valor.neoforge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/gears_of_valor.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/gears_of_valor.neoforge.test.iml" />
+    </modules>
+  </component>
+</project>

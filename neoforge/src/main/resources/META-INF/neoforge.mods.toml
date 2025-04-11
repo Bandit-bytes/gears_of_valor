@@ -1,0 +1,45 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+#issueTrackerURL = ""
+license = "ARR"
+
+[[mods]]
+modId = "gears_of_valor"
+version = "${version}"
+displayName = "Gears Of Valor"
+authors = "PixelDreamStudios"
+description = '''
+Valor Gear.
+'''
+#logoFile = ""
+
+[[dependencies.gears_of_valor]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.gears_of_valor]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.gears_of_valor]]
+modId = "architectury"
+type = "required"
+versionRange = "[13.0.8,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.gears_of_valor]]
+modId = "azurelib"
+type = "required"
+versionRange = "[3.0.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "gears_of_valor.mixins.json"

@@ -1,0 +1,30 @@
+{
+  "category.gears_of_valor": "Gears Of Valor",
+
+  "item.gears_of_valor.paladin_helmet": "Paladin Helmet",
+  "item.gears_of_valor.paladin_chestplate": "Paladin Chestplate",
+  "item.gears_of_valor.paladin_leggings": "Paladin Leggings",
+  "item.gears_of_valor.paladin_boots": "Paladin Boots",
+  
+  "item.gears_of_valor.woodland_spirit_helmet": "Woodland Spirit Helmet",
+  "item.gears_of_valor.woodland_spirit_chestplate": "Woodland Spirit Chestplate",
+  "item.gears_of_valor.woodland_spirit_leggings": "Woodland Spirit Leggings",
+  "item.gears_of_valor.woodland_spirit_boots": "Woodland Spirit Boots",
+  
+  "item.gears_of_valor.arismas_awakening_helmet": "Arisma's Awakening Helmet",
+  "item.gears_of_valor.arismas_awakening_chestplate": "Arisma's Awakening Chestplate",
+  "item.gears_of_valor.arismas_awakening_leggings": "Arisma's Awakening Leggings",
+  "item.gears_of_valor.arismas_awakening_boots": "Arisma's Awakening Boots",
+  
+  "item.gears_of_valor.reapers_embrace_helmet": "Reaper's Embrace Helmet",
+  "item.gears_of_valor.reapers_embrace_chestplate": "Reaper's Embrace Chestplate",
+  "item.gears_of_valor.reapers_embrace_leggings": "Reaper's Embrace Leggings",
+  "item.gears_of_valor.reapers_embrace_boots": "Reaper's Embrace Boots",
+
+  "item.gears_of_valor.arismas_armor.tooltip": "Full Set Bonus: \u00A76Aura of Ascendance\u00A7r\n\u00A77Radiates mystical power to regenerate health while still, empowers enchanted weapons, and slows nearby foes.",
+  "item.gears_of_valor.reaper_armor.tooltip": "Full Set Bonus: \u00A74Harvest of the Fallen\u00A7r\n\u00A77Nearby enemies are weakened.\n\u00A77Gain immense power and lifesteal when near death.",
+  "item.gears_of_valor.woodland_armor.tooltip": "Full Set Bonus: \u00A72Blessing of the Wildwood\u00A7r\n\u00A77Grants stealth while crouching, speed and agility, and protection when rooted in nature.",
+  "item.gears_of_valor.paldin_armor.tooltip": "Full Set Bonus: \u00A7eAegis of the Lightbringer\u00A7r\n\u00A77Protects allies, resists flame and evil, and unleashes radiant power in moments of need."
+
+
+}

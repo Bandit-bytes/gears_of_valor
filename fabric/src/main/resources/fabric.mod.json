@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "gears_of_valor",
+  "version": "${version}",
+  "name": "Gears Of Valor",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/gears_of_valor/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.pixeldreamstudios.gearsofvalor.fabric.GearsOfValorFabric"
+    ],
+    "client": [
+      "net.pixeldreamstudios.gearsofvalor.fabric.client.GearsFabricClient"
+    ]
+  },
+  "mixins": [
+    "gears_of_valor.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.13",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.8",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
