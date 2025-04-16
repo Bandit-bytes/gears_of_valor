@@ -2,20 +2,20 @@ package net.pixeldreamstudios.gearsofvalor.item.weapons.weapons;
 
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.level.Level;
 import net.pixeldreamstudios.gearsofvalor.item.armor.client.dispatcher.GearsItemDispatcher;
 import net.pixeldreamstudios.gearsofvalor.item.weapons.GearsWeaponMaterials;
-import net.pixeldreamstudios.gearsofvalor.item.weapons.renderer.FuryRenderer;
-import net.pixeldreamstudios.gearsofvalor.item.weapons.renderer.HeavensRenderer;
+import net.pixeldreamstudios.gearsofvalor.registry.TabRegistry;
 
-public class FurySword extends WeaponItem {
+public class FurySword extends Item {
     public final GearsItemDispatcher dispatcher;
 
     public FurySword(Properties properties) {
-        super(GearsWeaponMaterials.FURY_TIER, FuryRenderer::new, properties
-        );
-        // Create the instance of the class here to use later.
+        super(new Properties().attributes(SwordItem.createAttributes(GearsWeaponMaterials.FURY_TIER, 2, -2.5f)).durability(375).rarity(Rarity.RARE).arch$tab(TabRegistry.GEARS_TAB));
         this.dispatcher = new GearsItemDispatcher();
     }
 

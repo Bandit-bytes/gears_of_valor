@@ -26,7 +26,7 @@ public class GearsArmorMaterials {
         enumMap.put(ArmorItem.Type.CHESTPLATE, 8);
         enumMap.put(ArmorItem.Type.HELMET, 3);
         enumMap.put(ArmorItem.Type.BODY, 6);
-    }), 15, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 2.0F, () -> Ingredient.of(Items.DIAMOND));
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 2.0F, 2.0F, () -> Ingredient.of(Items.DIAMOND));
 
     public static final Holder<ArmorMaterial> REAPER = GearsArmorMaterialsRegister.registerArmorMaterial(GearsOfValorMod.MOD_ID, "reaper", Util.make(new EnumMap<>(ArmorItem.Type.class), enumMap -> {
         enumMap.put(ArmorItem.Type.BOOTS, 4);
@@ -34,7 +34,7 @@ public class GearsArmorMaterials {
         enumMap.put(ArmorItem.Type.CHESTPLATE, 9);
         enumMap.put(ArmorItem.Type.HELMET, 4);
         enumMap.put(ArmorItem.Type.BODY, 7);
-    }), 20, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 3.0F, () -> Ingredient.of(Items.NETHERITE_INGOT));
+    }), 20, SoundEvents.ARMOR_EQUIP_LEATHER, 3.0F, 3.0F, () -> Ingredient.of(Items.NETHERITE_INGOT));
 
     public static final Holder<ArmorMaterial> WOODLAND = GearsArmorMaterialsRegister.registerArmorMaterial(GearsOfValorMod.MOD_ID, "woodland", Util.make(new EnumMap<>(ArmorItem.Type.class), enumMap -> {
         enumMap.put(ArmorItem.Type.BOOTS, 1);
@@ -42,5 +42,5 @@ public class GearsArmorMaterials {
         enumMap.put(ArmorItem.Type.CHESTPLATE, 5);
         enumMap.put(ArmorItem.Type.HELMET, 2);
         enumMap.put(ArmorItem.Type.BODY, 4);
-    }), 5, SoundEvents.ARMOR_EQUIP_LEATHER, 1.0F, 0.0F, () -> Ingredient.of(Items.OAK_LOG));
+    }), 5, SoundEvents.ARMOR_EQUIP_IRON, 1.0F, 0.0F, () -> Ingredient.of(Items.OAK_LOG));
 }

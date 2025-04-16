@@ -9,23 +9,22 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import net.pixeldreamstudios.gearsofvalor.item.armor.GearsArmorMaterials;
 import net.pixeldreamstudios.gearsofvalor.item.armor.client.dispatcher.GearsArmorDispatcher;
-import net.pixeldreamstudios.gearsofvalor.item.armor.client.renderer.PaladinArmorRenderer;
-import net.pixeldreamstudios.gearsofvalor.item.armor.client.renderer.WoodlandArmorRenderer;
 
 import java.util.List;
 
-public class WoodlandArmorItem extends GearsArmorItem {
+public class WoodlandArmorItem extends ArmorItem {
 
     public final GearsArmorDispatcher DISPATCHER;
 
     public WoodlandArmorItem(Type type, Properties properties) {
-        super(GearsArmorMaterials.WOODLAND, type, WoodlandArmorRenderer::new, properties
+        super(GearsArmorMaterials.WOODLAND, type, properties
         );
         this.DISPATCHER = new GearsArmorDispatcher();
     }
