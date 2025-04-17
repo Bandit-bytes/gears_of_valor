@@ -1,2 +1,8 @@
 /time set day
 /effect clear
+/effect give Dev minecraft:night_vision infinite
+/give Dev gears_of_valor:fallen_ore
+/enchant Dev minecraft:silk_touch
+/effect clear
+/summon minecraft:pig
+/summon minecraft:camel
