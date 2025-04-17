@@ -6,13 +6,11 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.SwordItem;
 import net.pixeldreamstudios.gearsofvalor.GearsOfValorMod;
 import net.pixeldreamstudios.gearsofvalor.item.armor.sets.ArismasArmorItem;
 import net.pixeldreamstudios.gearsofvalor.item.armor.sets.PaladinArmorItem;
 import net.pixeldreamstudios.gearsofvalor.item.armor.sets.ReaperArmorItem;
 import net.pixeldreamstudios.gearsofvalor.item.armor.sets.WoodlandArmorItem;
-import net.pixeldreamstudios.gearsofvalor.item.weapons.GearsWeaponMaterials;
 import net.pixeldreamstudios.gearsofvalor.item.weapons.weapons.FurySword;
 import net.pixeldreamstudios.gearsofvalor.item.weapons.weapons.HarbringerSword;
 import net.pixeldreamstudios.gearsofvalor.item.weapons.weapons.HeavensSword;
@@ -68,36 +66,13 @@ public class ItemRegistry {
         public static final RegistrySupplier<Item> ARISMAS_AWAKENING_BOOTS = ITEMS.register("arismas_awakening_boots", () -> new ArismasArmorItem(ArmorItem.Type.BOOTS, ReaperProps));
     //WEAPONS
         public static final RegistrySupplier<Item> HARBRINGER = ITEMS.register("harbringer", () ->
-            new HarbringerSword(
-                        new Item.Properties()
-                                .attributes(SwordItem.createAttributes(GearsWeaponMaterials.HARBRINGER_TIER, 3, -2f)).durability(375)
-                                .rarity(Rarity.RARE)
-                                .arch$tab(TabRegistry.GEARS_TAB))
-                        );
+            new HarbringerSword(new Item.Properties()));
         public static final RegistrySupplier<Item> FURYS_CALL = ITEMS.register("furys_call", () ->
-            new FurySword(
-                        new Item.Properties()
-                                .attributes(SwordItem.createAttributes(GearsWeaponMaterials.FURY_TIER, 2, -2.5f))
-                                .durability(375)
-                                .rarity(Rarity.RARE)
-                                .arch$tab(TabRegistry.GEARS_TAB))
-        );
+            new FurySword(new Item.Properties()));
         public static final RegistrySupplier<Item> HEAVENS_FALL = ITEMS.register("heavens_fall", () ->
-            new HeavensSword(
-                        new Item.Properties()
-                                .attributes(SwordItem.createAttributes(GearsWeaponMaterials.HEAVENS_TIER, 0, -2.5f))
-                                .durability(375)
-                                .rarity(Rarity.RARE)
-                                .arch$tab(TabRegistry.GEARS_TAB))
-                        );
+            new HeavensSword(new Item.Properties()));
         public static final RegistrySupplier<Item> SHADOW_STALKER = ITEMS.register("shadow_stalker", () ->
-            new ShadowSword(
-                        new Item.Properties()
-                                .attributes(SwordItem.createAttributes(GearsWeaponMaterials.SHADOW_TIER, 1, -2.5f))
-                                .durability(375)
-                                .rarity(Rarity.RARE)
-                                .arch$tab(TabRegistry.GEARS_TAB))
-                        );
+            new ShadowSword(new Item.Properties()));
 
     public static void register() {
         ITEMS.register();

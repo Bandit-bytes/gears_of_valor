@@ -12,8 +12,5 @@ public final class GearsOfValorMod {
         TabRegistry.init();
         ItemRegistry.register();
         BlockRegistry.init();
-        ArmorRegistry.init();
-
-        ArmorRegistering.init(MOD_ID);
     }
 }

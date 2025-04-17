@@ -1,5 +1,6 @@
 package net.pixeldreamstudios.gearsofvalor.item.weapons.weapons;
 
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
@@ -17,7 +18,7 @@ public class ShadowSword extends Item {
     public final GearsItemDispatcher dispatcher;
 
     public ShadowSword(Properties properties) {
-        super(new Properties().attributes(SwordItem.createAttributes(GearsWeaponMaterials.SHADOW_TIER, 1, -2.5f)).durability(375).rarity(Rarity.RARE).arch$tab(TabRegistry.GEARS_TAB));
+        super(new Properties().attributes(SwordItem.createAttributes(GearsWeaponMaterials.SHADOW_TIER, 1, -2.5f)).durability(2032).rarity(Rarity.RARE).arch$tab(TabRegistry.GEARS_TAB));
         this.dispatcher = new GearsItemDispatcher();
     }
     @Override
@@ -27,5 +28,14 @@ public class ShadowSword extends Item {
 
             // This is where you now trigger an animation to play
         }
+    }
+    @Override
+    public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
+        stack.hurtAndBreak(1, attacker, (EquipmentSlot.MAINHAND));
+        return true;
+    }
+    @Override
+    public void postHurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
+        stack.hurtAndBreak(1, attacker,(EquipmentSlot.MAINHAND));
     }
 }
