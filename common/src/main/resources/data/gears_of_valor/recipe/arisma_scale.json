@@ -1,7 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "LBI"
+    "LBI",
+    " M "
   ],
   "key": {
     "L": {
@@ -12,6 +13,9 @@
     },
     "I": {
       "item": "minecraft:iron_ingot"
+    },
+    "M": {
+      "item": "gears_of_valor:cursed_moonshard"
     }
   },
   "result": {

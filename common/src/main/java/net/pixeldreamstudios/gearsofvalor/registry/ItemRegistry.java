@@ -11,6 +11,9 @@ import net.pixeldreamstudios.gearsofvalor.item.armor.sets.ArismasArmorItem;
 import net.pixeldreamstudios.gearsofvalor.item.armor.sets.PaladinArmorItem;
 import net.pixeldreamstudios.gearsofvalor.item.armor.sets.ReaperArmorItem;
 import net.pixeldreamstudios.gearsofvalor.item.armor.sets.WoodlandArmorItem;
+import net.pixeldreamstudios.gearsofvalor.item.items.CursedStoneItem;
+import net.pixeldreamstudios.gearsofvalor.item.items.PureStoneItem;
+import net.pixeldreamstudios.gearsofvalor.item.items.UnseenSoulItem;
 import net.pixeldreamstudios.gearsofvalor.item.weapons.weapons.FurySword;
 import net.pixeldreamstudios.gearsofvalor.item.weapons.weapons.HarbringerSword;
 import net.pixeldreamstudios.gearsofvalor.item.weapons.weapons.HeavensSword;
@@ -24,10 +27,16 @@ public class ItemRegistry {
 
     public static final RegistrySupplier<Item> FALLEN_CORE = ITEMS.register("fallen_core",
             () -> new Item(new Item.Properties().arch$tab(TabRegistry.GEARS_TAB).rarity(Rarity.EPIC)));
+    public static final RegistrySupplier<Item> CURSED_MOONSHARD = ITEMS.register("cursed_moonshard",
+            () -> new CursedStoneItem(new Item.Properties().arch$tab(TabRegistry.GEARS_TAB).rarity(Rarity.EPIC)));
+    public static final RegistrySupplier<Item> PURE_STONE = ITEMS.register("purification_stone",
+            () -> new PureStoneItem(new Item.Properties().arch$tab(TabRegistry.GEARS_TAB).rarity(Rarity.EPIC)));
     public static final RegistrySupplier<Item> FALLEN = ITEMS.register("fallen",
             () -> new Item(new Item.Properties().arch$tab(TabRegistry.GEARS_TAB).rarity(Rarity.RARE)));
+
     public static final RegistrySupplier<Item> UNSEEN_SOUL = ITEMS.register("unseen_soul",
-            () -> new Item(new Item.Properties().arch$tab(TabRegistry.GEARS_TAB).rarity(Rarity.RARE)));
+            () -> new UnseenSoulItem(new Item.Properties().arch$tab(TabRegistry.GEARS_TAB).rarity(Rarity.RARE)));
+
     public static final RegistrySupplier<Item> ARISMA_SCALE = ITEMS.register("arisma_scale",
             () -> new Item(new Item.Properties().arch$tab(TabRegistry.GEARS_TAB).rarity(Rarity.RARE)));
     public static final RegistrySupplier<Item> NOBLE_GEM = ITEMS.register("noble_gem",

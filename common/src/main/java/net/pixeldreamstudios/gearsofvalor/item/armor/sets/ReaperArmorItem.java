@@ -16,12 +16,14 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import net.pixeldreamstudios.gearsofvalor.item.armor.GearsArmorMaterials;
 import net.pixeldreamstudios.gearsofvalor.item.armor.client.dispatcher.GearsArmorDispatcher;
+import net.pixeldreamstudios.gearsofvalor.registry.ComponentRegistry;
 
 import java.util.List;
 
 public class ReaperArmorItem extends ArmorItem {
 
     public final GearsArmorDispatcher DISPATCHER;
+
 
     public ReaperArmorItem(Type type, Properties properties) {
         super(GearsArmorMaterials.REAPER, type, properties
@@ -32,19 +34,25 @@ public class ReaperArmorItem extends ArmorItem {
     public void inventoryTick(ItemStack stack, Level level, Entity entity, int slotId, boolean isSelected) {
         if (!level.isClientSide() && entity instanceof Player player) {
             if (hasFullSet(player)) {
-                {
-                    if (player.getHealth() / player.getMaxHealth() <= 0.4f) {
-                        player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 100, 1, false, false, false));
-                        player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 100, 0, false, false, false));
-                    }
-                    level.getEntitiesOfClass(LivingEntity.class, player.getBoundingBox().inflate(5), e ->
-                            e != player && !(e instanceof Player) && e.isAlive()
-                    ).forEach(enemy -> {
-                        enemy.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 60, 0, false, false));
-                    });
-                    // lifesteal
-                    if (player.getAttackStrengthScale(1.0F) > 0.9F && player.getLastHurtMob() != null) {
+                if (player.getHealth() / player.getMaxHealth() <= 0.4f) {
+                    player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 100, 1, false, false, false));
+                    player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 100, 0, false, false, false));
+                }
+
+                level.getEntitiesOfClass(LivingEntity.class, player.getBoundingBox().inflate(5), e ->
+                        e != player && !(e instanceof Player) && e.isAlive()
+                ).forEach(enemy -> {
+                    enemy.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 60, 0, false, false));
+                });
+
+                ItemStack chest = player.getItemBySlot(EquipmentSlot.CHEST);
+                if (player.getAttackStrengthScale(1.0F) > 0.9F && player.getLastHurtMob() != null) {
+                    long currentTime = level.getGameTime();
+                    long lastHeal = chest.getOrDefault(ComponentRegistry.LAST_HEAL_TIME.get(), 0L);
+
+                    if (currentTime - lastHeal >= 40) {
                         player.heal(2.0F);
+                        chest.set(ComponentRegistry.LAST_HEAL_TIME.get(), currentTime);
                     }
                 }
             }

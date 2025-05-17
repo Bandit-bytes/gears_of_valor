@@ -11,6 +11,13 @@
   "item.gears_of_valor.heavens_fall": "Heavens Fall",
   "item.gears_of_valor.shadow_stalker": "Shadow Stalker",
 
+  "tooltip.cursed_stone_info": "Used in ritual for Noble Gem.",
+  "tooltip.stone_info": "Purchased from a Cleric Villager at max level. Used in ritual for Noble Gem.",
+  "item.stone.hold_shift": "§8[Hold §eShift§8] for more info",
+  "tooltip.cursed_stone_info_2": "Using a Cursed Moonshard and a Purification Stone into a heated Cauldron with water will create the Noble Gem",
+  "tooltip.unseen_soul_info_2": "Drops from Wither Deaths..",
+  "tooltip.unseen_soul_info": "You can still hear the screaming...",
+
   "item.gears_of_valor.raw_fallen": "Raw Fallen",
   "item.gears_of_valor.unseen_soul": "Unseen Soul",
   "item.gears_of_valor.tainted_iron": "Tainted Iron Ingot",
@@ -18,6 +25,8 @@
   "item.gears_of_valor.arisma_scale": "Arisma's Scale",
   "item.gears_of_valor.fallen_core": "Fallen Core",
   "item.gears_of_valor.noble_gem": "Noble Gem",
+  "item.gears_of_valor.purification_stone": "Purification Stone",
+  "item.gears_of_valor.cursed_moonshard": "Cursed Moon Shard",
   "item.gears_of_valor.raw_soulinite": "Raw Soulinite",
   "item.gears_of_valor.soulinite": "Soulinite Ingot",
 
@@ -58,6 +67,7 @@
   "item.gears_of_valor.woodland_armor.tooltip.line1": "Full Set Bonus: §2Blessing of the Wildwood",
   "item.gears_of_valor.woodland_armor.tooltip.line2": "§7Grants stealth while crouching.",
   "item.gears_of_valor.woodland_armor.tooltip.line3": "§7Boosts speed and agility.",
-  "item.gears_of_valor.woodland_armor.tooltip.line4": "§7Provides protection when rooted in nature."
+  "item.gears_of_valor.woodland_armor.tooltip.line4": "§7Provides protection when rooted in nature.",
+  "tag.item.gears_of_valor.noble_gems": "Noble Gems"
 
 }
