@@ -1,8 +1,8 @@
 package net.pixeldreamstudios.gearsofvalor.neoforge;
 
-import mod.azure.azurelib.rewrite.animation.cache.AzIdentityRegistry;
-import mod.azure.azurelib.rewrite.render.armor.AzArmorRendererRegistry;
-import mod.azure.azurelib.rewrite.render.item.AzItemRendererRegistry;
+import mod.azure.azurelib.common.animation.cache.AzIdentityRegistry;
+import mod.azure.azurelib.common.render.armor.AzArmorRendererRegistry;
+import mod.azure.azurelib.common.render.item.AzItemRendererRegistry;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;

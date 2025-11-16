@@ -31,11 +31,11 @@ public class RitualEventHandler {
                 BlockState state = level.getBlockState(pos);
                 if (!state.is(Blocks.WATER_CAULDRON)) continue;
 
-                BlockState beneath = level.getBlockState(pos.below());
-                boolean fireBelow = beneath.is(Blocks.FIRE) || beneath.is(Blocks.SOUL_FIRE)
-                        || beneath.is(Blocks.CAMPFIRE) || beneath.is(Blocks.SOUL_CAMPFIRE)
-                        || beneath.is(Blocks.LAVA);
-                if (!fireBelow) continue;
+                BlockState below = level.getBlockState(pos.below());
+                if (!(below.is(Blocks.FIRE) || below.is(Blocks.SOUL_FIRE) ||
+                        below.is(Blocks.CAMPFIRE) || below.is(Blocks.SOUL_CAMPFIRE) ||
+                        below.is(Blocks.LAVA))) continue;
+
 
                 List<ItemEntity> items = level.getEntitiesOfClass(ItemEntity.class,
                         new AABB(pos).inflate(0.5));
@@ -44,8 +44,13 @@ public class RitualEventHandler {
 
                 for (ItemEntity item : items) {
                     ItemStack stack = item.getItem();
-                    if (stack.is(ItemRegistry.CURSED_MOONSHARD.get())) moonshard = item;
-                    else if (stack.is(ItemRegistry.PURE_STONE.get())) purifier = item;
+                    if (moonshard == null && stack.is(ItemRegistry.CURSED_MOONSHARD.get())) {
+                        moonshard = item;
+                    } else if (purifier == null && stack.is(ItemRegistry.PURE_STONE.get())) {
+                        purifier = item;
+                    }
+
+                    if (moonshard != null && purifier != null) break;
                 }
 
                 if (moonshard != null && purifier != null) {
@@ -53,6 +58,7 @@ public class RitualEventHandler {
                     purifier.discard();
 
                     level.playSound(null, pos, SoundEvents.ENCHANTMENT_TABLE_USE, SoundSource.BLOCKS, 1.0f, 1.2f);
+
                     level.sendParticles(ParticleTypes.WITCH,
                             pos.getX() + 0.5, pos.getY() + 1, pos.getZ() + 0.5,
                             10, 0.3, 0.3, 0.3, 0.02);

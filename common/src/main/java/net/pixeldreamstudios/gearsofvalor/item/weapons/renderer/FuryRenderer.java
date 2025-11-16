@@ -1,7 +1,7 @@
 package net.pixeldreamstudios.gearsofvalor.item.weapons.renderer;
 
-import mod.azure.azurelib.rewrite.render.item.AzItemRenderer;
-import mod.azure.azurelib.rewrite.render.item.AzItemRendererConfig;
+import mod.azure.azurelib.common.render.item.AzItemRenderer;
+import mod.azure.azurelib.common.render.item.AzItemRendererConfig;
 import net.minecraft.resources.ResourceLocation;
 import net.pixeldreamstudios.gearsofvalor.GearsOfValorMod;
 import net.pixeldreamstudios.gearsofvalor.item.weapons.animator.HarbringerAnimator;

@@ -37,7 +37,7 @@ side = "BOTH"
 [[dependencies.gears_of_valor]]
 modId = "azurelib"
 type = "required"
-versionRange = "[3.0.0,)"
+versionRange = "[3.1.1,)"
 ordering = "NONE"
 side = "BOTH"
 
