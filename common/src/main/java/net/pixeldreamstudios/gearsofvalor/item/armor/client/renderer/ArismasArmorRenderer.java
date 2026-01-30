@@ -4,7 +4,7 @@ import mod.azure.azurelib.common.render.armor.AzArmorRenderer;
 import mod.azure.azurelib.common.render.armor.AzArmorRendererConfig;
 import net.minecraft.resources.ResourceLocation;
 import net.pixeldreamstudios.gearsofvalor.GearsOfValorMod;
-import net.pixeldreamstudios.gearsofvalor.item.armor.client.animator.PaladinAnimator;
+import net.pixeldreamstudios.gearsofvalor.item.armor.client.animator.ArismaAnimator;
 
 public class ArismasArmorRenderer extends AzArmorRenderer {
     private static final ResourceLocation GEO = ResourceLocation.fromNamespaceAndPath(
@@ -20,7 +20,7 @@ public class ArismasArmorRenderer extends AzArmorRenderer {
     public ArismasArmorRenderer() {
         super(
                 AzArmorRendererConfig.builder(GEO, TEX)
-                        .setAnimatorProvider(PaladinAnimator::new)
+                        .setAnimatorProvider(ArismaAnimator::new)
                         .build()
         );
     }

@@ -22,7 +22,7 @@ public class GearsArmorMaterials {
         enumMap.put(ArmorItem.Type.BODY, 5);
     }), 10, SoundEvents.ARMOR_EQUIP_CHAIN, 1.0F, 0.5F, () -> Ingredient.of(Items.COPPER_INGOT));
 
-    public static final Holder<ArmorMaterial> PALADIN = registerArmorMaterial(GearsOfValorMod.MOD_ID, "paladin", Util.make(new EnumMap(ArmorItem.Type.class), enumMap -> {
+    public static final Holder<ArmorMaterial> PALADIN = registerArmorMaterial(GearsOfValorMod.MOD_ID, "arismas", Util.make(new EnumMap<>(ArmorItem.Type.class), enumMap -> {
         enumMap.put(ArmorItem.Type.BOOTS, 3);
         enumMap.put(ArmorItem.Type.LEGGINGS, 6);
         enumMap.put(ArmorItem.Type.CHESTPLATE, 8);

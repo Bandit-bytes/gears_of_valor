@@ -4,7 +4,7 @@ import mod.azure.azurelib.common.render.armor.AzArmorRenderer;
 import mod.azure.azurelib.common.render.armor.AzArmorRendererConfig;
 import net.minecraft.resources.ResourceLocation;
 import net.pixeldreamstudios.gearsofvalor.GearsOfValorMod;
-import net.pixeldreamstudios.gearsofvalor.item.armor.client.animator.PaladinAnimator;
+import net.pixeldreamstudios.gearsofvalor.item.armor.client.animator.ReaperAnimator;
 
 public class ReaperArmorRenderer extends AzArmorRenderer {
     private static final ResourceLocation GEO = ResourceLocation.fromNamespaceAndPath(
@@ -20,7 +20,7 @@ public class ReaperArmorRenderer extends AzArmorRenderer {
     public ReaperArmorRenderer() {
         super(
                 AzArmorRendererConfig.builder(GEO, TEX)
-                        .setAnimatorProvider(PaladinAnimator::new)
+                        .setAnimatorProvider(ReaperAnimator::new)
                         .build()
         );
     }
