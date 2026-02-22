@@ -115,15 +115,15 @@
 [Architectury Transformer DEBUG]  - D:\SolidState Driver\bandits mod development\gears_of_valor_1.20\.gradle\loom-cache\remapped_mods\remapped\net\fabricmc\fabric-api\fabric-sound-api-v1-65f153da\1.0.14+1802ada577\fabric-sound-api-v1-65f153da-1.0.14+1802ada577.jar
 [Architectury Transformer DEBUG]  - D:\SolidState Driver\bandits mod development\gears_of_valor_1.20\.gradle\loom-cache\remapped_mods\remapped\net\fabricmc\fabric-api\fabric-transitive-access-wideners-v1-65f153da\4.3.2+1802ada577\fabric-transitive-access-wideners-v1-65f153da-4.3.2+1802ada577.jar
 [Architectury Transformer DEBUG]  - D:\SolidState Driver\bandits mod development\gears_of_valor_1.20\.gradle\loom-cache\remapped_mods\remapped\com\terraformersmc\modmenu-65f153da\7.2.2\modmenu-65f153da-7.2.2.jar
-[Architectury Transformer] Read classpath in 937.2 ms
+[Architectury Transformer] Read classpath in 954.4 ms
 [Architectury Transformer DEBUG] Closed File Systems for D:\SolidState Driver\bandits mod development\gears_of_valor_1.20\common\build\devlibs\gears_of_valor_1.20-common-1.0.0-1.21.1-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from D:\SolidState Driver\bandits mod development\gears_of_valor_1.20\common\build\devlibs\gears_of_valor_1.20-common-1.0.0-1.21.1-dev.jar to C:\Users\noide\AppData\Local\Temp\9220658073128275107.jar: 
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from D:\SolidState Driver\bandits mod development\gears_of_valor_1.20\common\build\devlibs\gears_of_valor_1.20-common-1.0.0-1.21.1-dev.jar to C:\Users\noide\AppData\Local\Temp\1040333077635708998.jar: 
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@15eb5ee5
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@2145b572
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@39529185
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@72f926e6
 [Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@3daa422a
-[Architectury Transformer DEBUG] Transforming from D:\SolidState Driver\bandits mod development\gears_of_valor_1.20\common\build\devlibs\gears_of_valor_1.20-common-1.0.0-1.21.1-dev.jar to C:\Users\noide\AppData\Local\Temp\9220658073128275107.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming from D:\SolidState Driver\bandits mod development\gears_of_valor_1.20\common\build\devlibs\gears_of_valor_1.20-common-1.0.0-1.21.1-dev.jar to C:\Users\noide\AppData\Local\Temp\1040333077635708998.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/events/RitualEventHandler with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/events/WitherSoulDropHandler with maxs=true frames=true
@@ -167,141 +167,141 @@
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/villagers/GearsVillagerTrades$1 with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/villagers/GearsVillagerTrades with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /gears_of_valor.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\noide\AppData\Local\Temp\9220658073128275107.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\noide\AppData\Local\Temp\1040333077635708998.jar
 [Architectury Transformer] Listening at D:\SolidState Driver\bandits mod development\gears_of_valor_1.20\common\build\devlibs\gears_of_valor_1.20-common-1.0.0-1.21.1-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [C:\Users\noide\AppData\Local\Temp\9220658073128275107.jar] contains packages: net.pixeldreamstudios.gearsofvalor.events, net.pixeldreamstudios.gearsofvalor.villagers, net.pixeldreamstudios.gearsofvalor.item.weapons.animator, net.pixeldreamstudios.gearsofvalor.item.items, net.pixeldreamstudios.gearsofvalor, net.pixeldreamstudios.gearsofvalor.item.armor.client.dispatcher, net.pixeldreamstudios.gearsofvalor.registry, net.pixeldreamstudios.gearsofvalor.item.armor.client.animator, net.pixeldreamstudios.gearsofvalor.item.weapons.renderer, net.pixeldreamstudios.gearsofvalor.item.weapons.weapons, net.pixeldreamstudios.gearsofvalor.item.weapons, net.pixeldreamstudios.gearsofvalor.item.armor.sets, net.pixeldreamstudios.gearsofvalor.item.armor, net.pixeldreamstudios.gearsofvalor.item.armor.client.renderer
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\noide\AppData\Local\Temp\1040333077635708998.jar] contains packages: net.pixeldreamstudios.gearsofvalor.events, net.pixeldreamstudios.gearsofvalor.villagers, net.pixeldreamstudios.gearsofvalor.item.weapons.animator, net.pixeldreamstudios.gearsofvalor.item.items, net.pixeldreamstudios.gearsofvalor, net.pixeldreamstudios.gearsofvalor.item.armor.client.dispatcher, net.pixeldreamstudios.gearsofvalor.registry, net.pixeldreamstudios.gearsofvalor.item.armor.client.animator, net.pixeldreamstudios.gearsofvalor.item.weapons.renderer, net.pixeldreamstudios.gearsofvalor.item.weapons.weapons, net.pixeldreamstudios.gearsofvalor.item.weapons, net.pixeldreamstudios.gearsofvalor.item.armor.sets, net.pixeldreamstudios.gearsofvalor.item.armor, net.pixeldreamstudios.gearsofvalor.item.armor.client.renderer
 [Architectury Transformer DEBUG] Closed File Systems for D:\SolidState Driver\bandits mod development\gears_of_valor_1.20\common\build\devlibs\gears_of_valor_1.20-common-1.0.0-1.21.1-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [D:\SolidState Driver\bandits mod development\gears_of_valor_1.20\fabric\build\resources\main] contains packages: 
 [Architectury Transformer DEBUG] Classpath entry [D:\SolidState Driver\bandits mod development\gears_of_valor_1.20\common\build\resources\main] contains packages: 
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/GearsOfValorMod.class to net/pixeldreamstudios/gearsofvalor/GearsOfValorMod.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/GearsOfValorMod with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/GearsOfValorMod in 1.847 ms
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/GearsOfValorMod in 1.588 ms
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/registry/TabRegistry.class to net/pixeldreamstudios/gearsofvalor/registry/TabRegistry.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/registry/TabRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/registry/TabRegistry in 575.9 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/registry/TabRegistry in 718.9 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/registry/ItemRegistry.class to net/pixeldreamstudios/gearsofvalor/registry/ItemRegistry.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/registry/ItemRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/registry/ItemRegistry in 1.438 ms
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/registry/ItemRegistry in 1.758 ms
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/items/CursedStoneItem.class to net/pixeldreamstudios/gearsofvalor/item/items/CursedStoneItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/items/CursedStoneItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/items/CursedStoneItem in 1.012 ms
-[Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/armor/sets/PaladinArmorItem.class to net/pixeldreamstudios/gearsofvalor/item/armor/sets/PaladinArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/armor/sets/PaladinArmorItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/sets/PaladinArmorItem in 810.1 μs
-[Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/HarbringerSword.class to net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/HarbringerSword.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/HarbringerSword with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/HarbringerSword in 278.1 μs
-[Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/armor/sets/ArismasArmorItem.class to net/pixeldreamstudios/gearsofvalor/item/armor/sets/ArismasArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/armor/sets/ArismasArmorItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/sets/ArismasArmorItem in 508.7 μs
-[Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/items/PureStoneItem.class to net/pixeldreamstudios/gearsofvalor/item/items/PureStoneItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/items/PureStoneItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/items/PureStoneItem in 212.7 μs
-[Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/armor/sets/ReaperArmorItem.class to net/pixeldreamstudios/gearsofvalor/item/armor/sets/ReaperArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/armor/sets/ReaperArmorItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/sets/ReaperArmorItem in 464.6 μs
-[Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/HeavensSword.class to net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/HeavensSword.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/HeavensSword with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/HeavensSword in 275.0 μs
-[Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/ShadowSword.class to net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/ShadowSword.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/ShadowSword with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/ShadowSword in 232.4 μs
-[Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/armor/sets/WoodlandArmorItem.class to net/pixeldreamstudios/gearsofvalor/item/armor/sets/WoodlandArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/armor/sets/WoodlandArmorItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/sets/WoodlandArmorItem in 541.6 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/items/CursedStoneItem in 664.3 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/FurySword.class to net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/FurySword.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/FurySword with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/FurySword in 326.0 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/FurySword in 362.9 μs
+[Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/armor/sets/PaladinArmorItem.class to net/pixeldreamstudios/gearsofvalor/item/armor/sets/PaladinArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/armor/sets/PaladinArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/sets/PaladinArmorItem in 733.0 μs
+[Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/armor/sets/WoodlandArmorItem.class to net/pixeldreamstudios/gearsofvalor/item/armor/sets/WoodlandArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/armor/sets/WoodlandArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/sets/WoodlandArmorItem in 600.0 μs
+[Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/items/PureStoneItem.class to net/pixeldreamstudios/gearsofvalor/item/items/PureStoneItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/items/PureStoneItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/items/PureStoneItem in 289.4 μs
+[Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/armor/sets/ArismasArmorItem.class to net/pixeldreamstudios/gearsofvalor/item/armor/sets/ArismasArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/armor/sets/ArismasArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/sets/ArismasArmorItem in 405.9 μs
+[Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/armor/sets/ReaperArmorItem.class to net/pixeldreamstudios/gearsofvalor/item/armor/sets/ReaperArmorItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/armor/sets/ReaperArmorItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/sets/ReaperArmorItem in 509.8 μs
+[Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/HeavensSword.class to net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/HeavensSword.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/HeavensSword with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/HeavensSword in 335.0 μs
+[Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/HarbringerSword.class to net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/HarbringerSword.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/HarbringerSword with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/HarbringerSword in 512.5 μs
+[Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/ShadowSword.class to net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/ShadowSword.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/ShadowSword with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/weapons/weapons/ShadowSword in 297.3 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/items/UnseenSoulItem.class to net/pixeldreamstudios/gearsofvalor/item/items/UnseenSoulItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/items/UnseenSoulItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/items/UnseenSoulItem in 205.4 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/items/UnseenSoulItem in 228.2 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/armor/GearsArmorMaterials.class to net/pixeldreamstudios/gearsofvalor/item/armor/GearsArmorMaterials.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/armor/GearsArmorMaterials with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/GearsArmorMaterials in 994.3 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/GearsArmorMaterials in 1.063 ms
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/armor/GearsArmorMaterials$1.class to net/pixeldreamstudios/gearsofvalor/item/armor/GearsArmorMaterials$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/armor/GearsArmorMaterials$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/GearsArmorMaterials$1 in 383.3 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/GearsArmorMaterials$1 in 395.3 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/armor/client/dispatcher/GearsArmorDispatcher.class to net/pixeldreamstudios/gearsofvalor/item/armor/client/dispatcher/GearsArmorDispatcher.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/armor/client/dispatcher/GearsArmorDispatcher with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/client/dispatcher/GearsArmorDispatcher in 188.8 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/client/dispatcher/GearsArmorDispatcher in 174.4 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/weapons/GearsWeaponMaterials.class to net/pixeldreamstudios/gearsofvalor/item/weapons/GearsWeaponMaterials.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/weapons/GearsWeaponMaterials with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/weapons/GearsWeaponMaterials in 712.9 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/weapons/GearsWeaponMaterials in 937.9 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/armor/client/dispatcher/GearsItemDispatcher.class to net/pixeldreamstudios/gearsofvalor/item/armor/client/dispatcher/GearsItemDispatcher.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/armor/client/dispatcher/GearsItemDispatcher with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/client/dispatcher/GearsItemDispatcher in 349.1 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/client/dispatcher/GearsItemDispatcher in 252.8 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/registry/BlockRegistry.class to net/pixeldreamstudios/gearsofvalor/registry/BlockRegistry.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/registry/BlockRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/registry/BlockRegistry in 540.9 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/registry/BlockRegistry in 519.1 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/events/RitualEventHandler.class to net/pixeldreamstudios/gearsofvalor/events/RitualEventHandler.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/events/RitualEventHandler with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/events/RitualEventHandler in 852.2 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/events/RitualEventHandler in 921.4 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/villagers/GearsVillagerTrades.class to net/pixeldreamstudios/gearsofvalor/villagers/GearsVillagerTrades.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/villagers/GearsVillagerTrades with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/villagers/GearsVillagerTrades in 428.4 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/villagers/GearsVillagerTrades in 352.0 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/villagers/GearsVillagerTrades$1.class to net/pixeldreamstudios/gearsofvalor/villagers/GearsVillagerTrades$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/villagers/GearsVillagerTrades$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/villagers/GearsVillagerTrades$1 in 259.4 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/villagers/GearsVillagerTrades$1 in 375.8 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/events/WitherSoulDropHandler.class to net/pixeldreamstudios/gearsofvalor/events/WitherSoulDropHandler.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/events/WitherSoulDropHandler with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/events/WitherSoulDropHandler in 547.7 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/events/WitherSoulDropHandler in 527.4 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/GearsOfValorClientMod.class to net/pixeldreamstudios/gearsofvalor/GearsOfValorClientMod.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/GearsOfValorClientMod with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/GearsOfValorClientMod in 558.3 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/GearsOfValorClientMod in 478.4 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/FuryRenderer.class to net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/FuryRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/FuryRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/FuryRenderer in 433.2 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/FuryRenderer in 316.2 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/HarbringerRenderer.class to net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/HarbringerRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/HarbringerRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/HarbringerRenderer in 257.5 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/HarbringerRenderer in 359.7 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/HeavensRenderer.class to net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/HeavensRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/HeavensRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/HeavensRenderer in 245.1 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/HeavensRenderer in 231.2 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/ShadowRenderer.class to net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/ShadowRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/ShadowRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/ShadowRenderer in 210.1 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/weapons/renderer/ShadowRenderer in 302.4 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/PaladinArmorRenderer.class to net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/PaladinArmorRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/PaladinArmorRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/PaladinArmorRenderer in 150.8 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/PaladinArmorRenderer in 157.8 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/ArismasArmorRenderer.class to net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/ArismasArmorRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/ArismasArmorRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/ArismasArmorRenderer in 156.2 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/ArismasArmorRenderer in 154.1 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/ReaperArmorRenderer.class to net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/ReaperArmorRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/ReaperArmorRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/ReaperArmorRenderer in 253.8 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/ReaperArmorRenderer in 238.5 μs
 [Architectury Transformer DEBUG] Transforming from net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/WoodlandArmorRenderer.class to net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/WoodlandArmorRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/WoodlandArmorRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/WoodlandArmorRenderer in 265.3 μs
+[Architectury Transformer DEBUG] Transformed net/pixeldreamstudios/gearsofvalor/item/armor/client/renderer/WoodlandArmorRenderer in 217.8 μs

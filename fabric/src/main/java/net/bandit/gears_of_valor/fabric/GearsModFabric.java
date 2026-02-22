@@ -8,5 +8,7 @@ public final class GearsModFabric implements ModInitializer {
     public void onInitialize() {
         GearsOfValorMod.init();
         GearsOfValorMod.initAzIdentityRegistry();
+
+        FabricWorldgen.init();
     }
 }
