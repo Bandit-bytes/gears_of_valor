@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GNG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "N": {
+      "item": "gears_of_valor:noble_gem"
+    }
+  },
+  "result": {
+    "item": "gears_of_valor:paladin_helmet",
+    "count": 1
+  }
+}

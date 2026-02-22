@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GNG",
+    "GSG",
+    "GSG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "minecraft:iron_block"
+    },
+    "N": {
+      "item": "gears_of_valor:noble_gem"
+    }
+  },
+  "result": {
+    "item": "gears_of_valor:paladin_chestplate",
+    "count": 1
+  }
+}

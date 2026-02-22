@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A A",
+    "G G"
+  ],
+  "key": {
+    "A": {
+      "item": "gears_of_valor:soulinite"
+    },
+    "G": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "gears_of_valor:reapers_embrace_boots",
+    "count": 1
+  }
+}

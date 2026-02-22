@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "gears_of_valor:fallen_ore",
+    "gears_of_valor:soulinite_ore",
+    "gears_of_valor:deepslate_fallen_ore",
+    "gears_of_valor:deepslate_soulinite_ore"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FFF",
+    "FNF",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "item": "gears_of_valor:fallen"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "gears_of_valor:fallen_core",
+    "count": 1
+  }
+}

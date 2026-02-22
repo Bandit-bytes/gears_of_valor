@@ -1,0 +1,73 @@
+{
+  "category.gears_of_valor": "Gears Of Valor",
+
+  "item.gears_of_valor.paladin_helmet": "Paladin Helmet",
+  "item.gears_of_valor.paladin_chestplate": "Paladin Chestplate",
+  "item.gears_of_valor.paladin_leggings": "Paladin Leggings",
+  "item.gears_of_valor.paladin_boots": "Paladin Boots",
+
+  "item.gears_of_valor.harbringer": "Harbringer",
+  "item.gears_of_valor.furys_call": "Furys Call",
+  "item.gears_of_valor.heavens_fall": "Heavens Fall",
+  "item.gears_of_valor.shadow_stalker": "Shadow Stalker",
+
+  "tooltip.cursed_stone_info": "Used in ritual for Noble Gem.",
+  "tooltip.stone_info": "Purchased from a Cleric Villager at max level. Used in ritual for Noble Gem.",
+  "item.stone.hold_shift": "§8[Hold §eShift§8] for more info",
+  "tooltip.cursed_stone_info_2": "Using a Cursed Moonshard and a Purification Stone into a heated Cauldron with water will create the Noble Gem",
+  "tooltip.unseen_soul_info_2": "Drops from Wither Deaths..",
+  "tooltip.unseen_soul_info": "You can still hear the screaming...",
+
+  "item.gears_of_valor.raw_fallen": "Raw Fallen",
+  "item.gears_of_valor.unseen_soul": "Unseen Soul",
+  "item.gears_of_valor.tainted_iron": "Tainted Iron Ingot",
+  "item.gears_of_valor.fallen": "Fallen Ingot",
+  "item.gears_of_valor.arisma_scale": "Arisma's Scale",
+  "item.gears_of_valor.fallen_core": "Fallen Core",
+  "item.gears_of_valor.noble_gem": "Noble Gem",
+  "item.gears_of_valor.purification_stone": "Purification Stone",
+  "item.gears_of_valor.cursed_moonshard": "Cursed Moon Shard",
+  "item.gears_of_valor.raw_soulinite": "Raw Soulinite",
+  "item.gears_of_valor.soulinite": "Soulinite Ingot",
+
+  "block.gears_of_valor.fallen_ore": "Fallen Ore",
+  "block.gears_of_valor.deepslate_fallen_ore": "Deepslate Fallen Ore",
+  "block.gears_of_valor.soulinite_ore": "Soulinite Ore",
+  "block.gears_of_valor.deepslate_soulinite_ore": "Deepslate Soulinite Ore",
+
+  "item.gears_of_valor.woodland_spirit_helmet": "Woodland Spirit Helmet",
+  "item.gears_of_valor.woodland_spirit_chestplate": "Woodland Spirit Chestplate",
+  "item.gears_of_valor.woodland_spirit_leggings": "Woodland Spirit Leggings",
+  "item.gears_of_valor.woodland_spirit_boots": "Woodland Spirit Boots",
+  
+  "item.gears_of_valor.arismas_awakening_helmet": "Arisma's Awakening Helmet",
+  "item.gears_of_valor.arismas_awakening_chestplate": "Arisma's Awakening Chestplate",
+  "item.gears_of_valor.arismas_awakening_leggings": "Arisma's Awakening Leggings",
+  "item.gears_of_valor.arismas_awakening_boots": "Arisma's Awakening Boots",
+  
+  "item.gears_of_valor.reapers_embrace_helmet": "Reaper's Embrace Helmet",
+  "item.gears_of_valor.reapers_embrace_chestplate": "Reaper's Embrace Chestplate",
+  "item.gears_of_valor.reapers_embrace_leggings": "Reaper's Embrace Leggings",
+  "item.gears_of_valor.reapers_embrace_boots": "Reaper's Embrace Boots",
+
+  "item.gears_of_valor.arismas_armor.tooltip.line1": "Full Set Bonus: §6Aura of Ascendance",
+  "item.gears_of_valor.arismas_armor.tooltip.line2": "§7Radiates mystical power to regenerate health while still.",
+  "item.gears_of_valor.arismas_armor.tooltip.line3": "§7Empowers enchanted weapons.",
+  "item.gears_of_valor.arismas_armor.tooltip.line4": "§7Slows nearby foes.",
+
+  "item.gears_of_valor.paldin_armor.tooltip.line1": "Full Set Bonus: §eAegis of the Lightbringer",
+  "item.gears_of_valor.paldin_armor.tooltip.line2": "§7Protects allies.",
+  "item.gears_of_valor.paldin_armor.tooltip.line3": "§7Resists flame and evil.",
+  "item.gears_of_valor.paldin_armor.tooltip.line4": "§7Unleashes radiant power in moments of need.",
+
+  "item.gears_of_valor.reaper_armor.tooltip.line1": "Full Set Bonus: §4Harvest of the Fallen",
+  "item.gears_of_valor.reaper_armor.tooltip.line2": "§7Nearby enemies are weakened.",
+  "item.gears_of_valor.reaper_armor.tooltip.line3": "§7Gain immense power and lifesteal when near death.",
+
+  "item.gears_of_valor.woodland_armor.tooltip.line1": "Full Set Bonus: §2Blessing of the Wildwood",
+  "item.gears_of_valor.woodland_armor.tooltip.line2": "§7Grants stealth while crouching.",
+  "item.gears_of_valor.woodland_armor.tooltip.line3": "§7Boosts speed and agility.",
+  "item.gears_of_valor.woodland_armor.tooltip.line4": "§7Provides protection when rooted in nature.",
+  "tag.item.gears_of_valor.noble_gems": "Noble Gems"
+
+}

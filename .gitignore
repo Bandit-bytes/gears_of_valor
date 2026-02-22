@@ -1,0 +1,12 @@
+/common/.gradle/
+/common/build/
+/common/.gradle/
+/common/build/
+/fabric/.gradle/
+/fabric/build/
+/forge/run/
+/forge/build/
+/forge/.gradle/
+/fabric/run/
+/fabric/build/
+/fabric/.gradle/

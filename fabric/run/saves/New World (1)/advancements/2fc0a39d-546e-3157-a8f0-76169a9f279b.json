@@ -1,0 +1,19 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-02-22 12:55:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:badlands": "2026-02-22 12:56:06 -0500",
+      "minecraft:river": "2026-02-22 12:56:11 -0500",
+      "minecraft:stony_shore": "2026-02-22 12:55:53 -0500",
+      "minecraft:warm_ocean": "2026-02-22 12:55:58 -0500",
+      "minecraft:plains": "2026-02-22 12:55:19 -0500"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}

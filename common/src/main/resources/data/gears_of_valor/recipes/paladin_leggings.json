@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI",
+    "G G",
+    "G G"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "minecraft:iron_block"
+    },
+    "I": {
+      "item": "gears_of_valor:noble_gem"
+    }
+  },
+  "result": {
+    "item": "gears_of_valor:paladin_leggings",
+    "count": 1
+  }
+}

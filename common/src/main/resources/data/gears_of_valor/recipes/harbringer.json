@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " IT",
+    "GFI",
+    "SG "
+  ],
+  "key": {
+    "F": {
+      "item": "gears_of_valor:noble_gem"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "T": {
+      "item": "minecraft:gold_block"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "gears_of_valor:harbringer",
+    "count": 1
+  }
+}

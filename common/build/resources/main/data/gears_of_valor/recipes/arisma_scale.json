@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LBI",
+    " M "
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "B": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "M": {
+      "item": "gears_of_valor:cursed_moonshard"
+    }
+  },
+  "result": {
+    "item": "gears_of_valor:arisma_scale",
+    "count": 1
+  }
+}

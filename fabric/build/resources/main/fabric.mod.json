@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gears_of_valor",
+  "version": "1.0.0-1.21.1",
+  "name": "gears_of_valor",
+  "description": "",
+  "authors": [
+    "Bandit-Bytes"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/gears_of_valor/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.bandit.gears_of_valor.fabric.GearsModFabric"
+    ],
+    "client": [
+      "net.bandit.gears_of_valor.fabric.client.GearsModFabricClient"
+    ]
+  },
+  "mixins": [
+    "gears_of_valor.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "architectury": ">=9.2.14",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

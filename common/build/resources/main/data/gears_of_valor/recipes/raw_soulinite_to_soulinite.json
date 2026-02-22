@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "gears_of_valor:raw_soulinite"
+  },
+  "result": "gears_of_valor:soulinite"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "T T",
+    "T T"
+  ],
+  "key": {
+    "T": {
+      "item": "gears_of_valor:tainted_iron"
+    }
+  },
+  "result": {
+    "item": "gears_of_valor:woodland_spirit_boots",
+    "count": 1
+  }
+}

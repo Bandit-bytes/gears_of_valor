@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "gears_of_valor:item/arismas_awakening_helmet"
+  }
+}
