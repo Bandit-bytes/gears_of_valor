@@ -16,6 +16,7 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import net.pixeldreamstudios.gearsofvalor.item.armor.GearsArmorMaterials;
 import net.pixeldreamstudios.gearsofvalor.item.armor.client.dispatcher.GearsArmorDispatcher;
+import net.pixeldreamstudios.gearsofvalor.registry.ItemRegistry;
 
 import java.util.List;
 
@@ -78,6 +79,6 @@ public class PaladinArmorItem extends ArmorItem {
 
     @Override
     public boolean isValidRepairItem(ItemStack toRepair, ItemStack repair) {
-        return repair.is(Items.IRON_INGOT);
+        return repair.is(ItemRegistry.NOBLE_GEM);
     }
 }

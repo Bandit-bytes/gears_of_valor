@@ -42,8 +42,7 @@ public final class GearsOfValorMod {
                 ItemRegistry.REAPERS_EMBRACE_LEGGINGS.get(),
                 ItemRegistry.REAPERS_EMBRACE_CHESTPLATE.get(),
                 ItemRegistry.REAPERS_EMBRACE_HELMET.get(),
-                ItemRegistry.PALADIN_BOOTS.get(),
-                ItemRegistry.FURYS_CALL.get()
+                ItemRegistry.PALADIN_BOOTS.get()
         );
     }
 
