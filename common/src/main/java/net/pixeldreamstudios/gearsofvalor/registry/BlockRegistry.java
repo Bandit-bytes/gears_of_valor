@@ -18,7 +18,7 @@ public class BlockRegistry {
 
     public static final RegistrySupplier<Block> SOULINITE_ORE = BLOCKS.register("soulinite_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 7),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE)
+                    BlockBehaviour.Properties.ofLegacyCopy(Blocks.DIAMOND_ORE)
                             .strength(4f)
                             .requiresCorrectToolForDrops()));
     public static final RegistrySupplier<Item> SOULINITE_ORE_ITEM = BLOCK_ITEMS.register(SOULINITE_ORE.getId(),
@@ -26,7 +26,7 @@ public class BlockRegistry {
 
     public static final RegistrySupplier<Block> FALLEN_ORE = BLOCKS.register("fallen_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 7),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE)
+                    BlockBehaviour.Properties.ofLegacyCopy(Blocks.DIAMOND_ORE)
                             .strength(4f)
                             .requiresCorrectToolForDrops()));
     public static final RegistrySupplier<Item> FALLEN_ORE_ITEM = BLOCK_ITEMS.register(FALLEN_ORE.getId(),
@@ -34,7 +34,7 @@ public class BlockRegistry {
 
     public static final RegistrySupplier<Block> DEEPSLATE_SOULINITE_ORE = BLOCKS.register("deepslate_soulinite_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 7),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE)
+                    BlockBehaviour.Properties.ofLegacyCopy(Blocks.DEEPSLATE_DIAMOND_ORE)
                             .strength(4f)
                             .requiresCorrectToolForDrops()));
     public static final RegistrySupplier<Item> DEEPSLATE_SOULINITE_ORE_ITEM = BLOCK_ITEMS.register(DEEPSLATE_SOULINITE_ORE.getId(),
@@ -42,7 +42,7 @@ public class BlockRegistry {
 
     public static final RegistrySupplier<Block> DEEPSLATE_FALLEN_ORE = BLOCKS.register("deepslate_fallen_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 7),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE)
+                    BlockBehaviour.Properties.ofLegacyCopy(Blocks.DEEPSLATE_DIAMOND_ORE)
                             .strength(4f)
                             .requiresCorrectToolForDrops()));
     public static final RegistrySupplier<Item> DEEPSLATE_FALLEN_ORE_ITEM = BLOCK_ITEMS.register(DEEPSLATE_FALLEN_ORE.getId(),

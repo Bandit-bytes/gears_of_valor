@@ -6,3 +6,5 @@
 /effect clear
 /summon minecraft:pig
 /summon minecraft:camel
+/effect clear
+/time set day
