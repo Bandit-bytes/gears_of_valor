@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "gears_of_valor:block/deepslate_fallen_ore"
-  }
-}

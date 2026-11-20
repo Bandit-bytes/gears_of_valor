@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:raw_materials/fallen",
+    "#forge:raw_materials/soulinite"
+  ]
+}

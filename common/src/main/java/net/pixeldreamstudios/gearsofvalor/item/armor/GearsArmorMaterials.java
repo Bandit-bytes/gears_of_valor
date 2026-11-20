@@ -4,56 +4,60 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.pixeldreamstudios.gearsofvalor.GearsOfValorMod;
+import net.pixeldreamstudios.gearsofvalor.registry.ItemRegistry;
 
 import java.util.function.Supplier;
 
+/**
+ * Durability multipliers use the vanilla scale (iron 15, diamond 33, netherite 37). Knockback resistance is per
+ * piece (netherite uses 0.1); the attribute caps at 1.0.
+ */
 public enum GearsArmorMaterials implements ArmorMaterial {
 
     ARISMAS(
             "arismas",
-            15,
+            30,
             new int[]{2, 5, 6, 2},
             10,
             SoundEvents.ARMOR_EQUIP_CHAIN,
             1.0F,
-            0.5F,
-            () -> Ingredient.of(Items.COPPER_INGOT)
+            0.05F,
+            () -> Ingredient.of(ItemRegistry.ARISMA_SCALE.get())
     ),
 
     PALADIN(
             "paladin",
-            25,
+            33,
             new int[]{3, 6, 8, 3},
             15,
             SoundEvents.ARMOR_EQUIP_NETHERITE,
             2.0F,
-            2.0F,
-            () -> Ingredient.of(Items.DIAMOND)
+            0.1F,
+            () -> Ingredient.of(ItemRegistry.NOBLE_GEM.get())
     ),
 
     REAPER(
             "reaper",
-            30,
+            36,
             new int[]{4, 7, 9, 4},
             20,
             SoundEvents.ARMOR_EQUIP_LEATHER,
             3.0F,
-            3.0F,
-            () -> Ingredient.of(Items.NETHERITE_INGOT)
+            0.15F,
+            () -> Ingredient.of(ItemRegistry.SOULINITE.get())
     ),
 
     WOODLAND(
             "woodland",
-            10,
+            25,
             new int[]{1, 3, 5, 2},
             5,
             SoundEvents.ARMOR_EQUIP_IRON,
             1.0F,
             0.0F,
-            () -> Ingredient.of(Items.OAK_LOG)
+            () -> Ingredient.of(ItemRegistry.TAINTED_IRON.get())
     );
 
     private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};

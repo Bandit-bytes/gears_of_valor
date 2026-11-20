@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ingots/fallen",
+    "#forge:ingots/soulinite"
+  ]
+}

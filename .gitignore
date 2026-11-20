@@ -1,12 +1,80 @@
-/common/.gradle/
-/common/build/
-/common/.gradle/
-/common/build/
-/fabric/.gradle/
-/fabric/build/
-/forge/run/
-/forge/build/
-/forge/.gradle/
-/fabric/run/
-/fabric/build/
-/fabric/.gradle/
+# IntelliJ IDEA / JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+out/
+
+# Visual Studio Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Gradle
+.gradle/
+**/.gradle/
+**/build/
+.gradletasknamecache
+gradle-app.setting
+
+# Minecraft development/runtime directories
+run/
+runs/
+**/run/
+**/runs/
+
+# Logs, crash reports, runtime state
+*.log
+*.log.gz
+crash-reports/
+**/crash-reports/
+command_history.txt
+options.txt
+usercache.json
+
+# Compiled / packaged output
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Keep the Gradle wrapper JAR tracked (exception must come after *.jar)
+!gradle/wrapper/gradle-wrapper.jar
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# OS / editor junk
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.stackdump
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Windows installer / shortcut files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk

@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "gears_of_valor:item/reapers_embrace_chestplate"
-  }
-}

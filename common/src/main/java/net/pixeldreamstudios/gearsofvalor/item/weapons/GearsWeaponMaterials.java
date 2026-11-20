@@ -1,6 +1,6 @@
 package net.pixeldreamstudios.gearsofvalor.item.weapons;
 
-import net.minecraft.world.item.Items;
+import net.pixeldreamstudios.gearsofvalor.registry.ItemRegistry;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 import org.jetbrains.annotations.NotNull;
@@ -15,19 +15,19 @@ public class GearsWeaponMaterials implements Tier {
             12.0f,
             5.0f,
             12,
-            () -> Ingredient.of(Items.IRON_INGOT)
+            () -> Ingredient.of(ItemRegistry.NOBLE_GEM.get())
     );
 
     public static final Tier FURY_TIER = new GearsWeaponMaterials(
-            3, 1561, 10.0f, 5.0f, 12, () -> Ingredient.of(Items.IRON_INGOT)
+            3, 1561, 10.0f, 5.0f, 12, () -> Ingredient.of(ItemRegistry.SOULINITE.get())
     );
 
     public static final Tier HEAVENS_TIER = new GearsWeaponMaterials(
-            3, 1561, 11.0f, 5.0f, 12, () -> Ingredient.of(Items.IRON_INGOT)
+            3, 1561, 11.0f, 5.0f, 12, () -> Ingredient.of(ItemRegistry.FALLEN.get())
     );
 
     public static final Tier SHADOW_TIER = new GearsWeaponMaterials(
-            3, 1561, 12.0f, 5.0f, 12, () -> Ingredient.of(Items.IRON_INGOT)
+            3, 1561, 12.0f, 5.0f, 12, () -> Ingredient.of(ItemRegistry.UNSEEN_SOUL.get())
     );
 
     private final int level;

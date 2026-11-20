@@ -4,6 +4,7 @@ package net.pixeldreamstudios.gearsofvalor;
 import mod.azure.azurelib.animation.cache.AzIdentityRegistry;
 import net.minecraft.resources.ResourceLocation;
 import net.pixeldreamstudios.gearsofvalor.events.RitualEventHandler;
+import net.pixeldreamstudios.gearsofvalor.events.SetBonusHandler;
 import net.pixeldreamstudios.gearsofvalor.events.WitherSoulDropHandler;
 import net.pixeldreamstudios.gearsofvalor.registry.BlockRegistry;
 import net.pixeldreamstudios.gearsofvalor.registry.ItemRegistry;
@@ -21,6 +22,7 @@ public final class GearsOfValorMod {
         RitualEventHandler.init();
         GearsVillagerTrades.init();
         WitherSoulDropHandler.init();
+        SetBonusHandler.init();
     }
 
     public static void initAzIdentityRegistry() {
@@ -44,8 +46,7 @@ public final class GearsOfValorMod {
                 ItemRegistry.REAPERS_EMBRACE_LEGGINGS.get(),
                 ItemRegistry.REAPERS_EMBRACE_CHESTPLATE.get(),
                 ItemRegistry.REAPERS_EMBRACE_HELMET.get(),
-                ItemRegistry.PALADIN_BOOTS.get(),
-                ItemRegistry.FURYS_CALL.get()
+                ItemRegistry.PALADIN_BOOTS.get()
         );
     }
 

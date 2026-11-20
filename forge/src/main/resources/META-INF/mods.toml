@@ -6,10 +6,10 @@ license = "All Rights Reserved"
 [[mods]]
 modId = "gears_of_valor"
 version = "${version}"
-displayName = "gears_of_valor"
-authors = "Bandit-Bytes"
+displayName = "Gears Of Valor"
+authors = "PixelDreamStudios, Bandit-Bytes"
 description = '''
-
+Legendary armor sets and weapons with unique set bonuses and abilities.
 '''
 #logoFile = ""
 
@@ -32,4 +32,11 @@ modId = "architectury"
 mandatory = true
 versionRange = "[9.2.14,)"
 ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.gears_of_valor]]
+modId = "azurelib"
+mandatory = true
+versionRange = "[3.1.3,)"
+ordering = "NONE"
 side = "BOTH"
