@@ -3,9 +3,9 @@
   "package": "net.pixeldreamstudios.gearsofvalor.mixin",
   "compatibilityLevel": "JAVA_21",
   "minVersion": "0.8",
-  "client": [
-  ],
+  "client": [],
   "mixins": [
+    "LivingEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1

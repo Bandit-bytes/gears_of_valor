@@ -2,10 +2,10 @@ package net.pixeldreamstudios.gearsofvalor.item.weapons;
 
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.TagKey;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.Block;
+import net.pixeldreamstudios.gearsofvalor.registry.ItemRegistry;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Supplier;
@@ -17,32 +17,32 @@ public class GearsWeaponMaterials implements Tier {
             12.0f,
             5.0f,
             12,
-            BlockTags.NEEDS_DIAMOND_TOOL,
-            () -> Ingredient.of(Items.IRON_INGOT));
+            BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
+            () -> Ingredient.of(ItemRegistry.NOBLE_GEM.get()));
 
     public static final Tier FURY_TIER = new GearsWeaponMaterials(
             1561,
             10.0f,
             5.0f,
             12,
-            BlockTags.NEEDS_DIAMOND_TOOL,
-            () -> Ingredient.of(Items.IRON_INGOT));
+            BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
+            () -> Ingredient.of(ItemRegistry.SOULINITE.get()));
 
     public static final Tier HEAVENS_TIER = new GearsWeaponMaterials(
             1561,
             11.0f,
             5.0f,
             12,
-            BlockTags.NEEDS_DIAMOND_TOOL,
-            () -> Ingredient.of(Items.IRON_INGOT));
+            BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
+            () -> Ingredient.of(ItemRegistry.FALLEN.get()));
 
     public static final Tier SHADOW_TIER = new GearsWeaponMaterials(
             1561,
             12.0f,
             5.0f,
             12,
-            BlockTags.NEEDS_DIAMOND_TOOL,
-            () -> Ingredient.of(Items.IRON_INGOT));
+            BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
+            () -> Ingredient.of(ItemRegistry.UNSEEN_SOUL.get()));
 
 
     int uses;

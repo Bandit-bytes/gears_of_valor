@@ -3,6 +3,7 @@ package net.pixeldreamstudios.gearsofvalor;
 import mod.azure.azurelib.common.animation.cache.AzIdentityRegistry;
 import net.minecraft.resources.ResourceLocation;
 import net.pixeldreamstudios.gearsofvalor.events.RitualEventHandler;
+import net.pixeldreamstudios.gearsofvalor.events.SetBonusHandler;
 import net.pixeldreamstudios.gearsofvalor.events.WitherSoulDropHandler;
 import net.pixeldreamstudios.gearsofvalor.registry.*;
 import net.pixeldreamstudios.gearsofvalor.villagers.GearsVillagerTrades;
@@ -11,7 +12,6 @@ public final class GearsOfValorMod {
     public static final String MOD_ID = "gears_of_valor";
 
     public static void init() {
-
         TabRegistry.init();
         ItemRegistry.register();
         BlockRegistry.init();
@@ -19,6 +19,7 @@ public final class GearsOfValorMod {
         RitualEventHandler.init();
         GearsVillagerTrades.init();
         WitherSoulDropHandler.init();
+        SetBonusHandler.init();
     }
 
     public static void initAzIdentityRegistry() {

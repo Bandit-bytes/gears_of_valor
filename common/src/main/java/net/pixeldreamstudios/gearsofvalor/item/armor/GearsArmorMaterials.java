@@ -13,6 +13,9 @@ import java.util.EnumMap;
 
 import static net.pixeldreamstudios.gearsofvalor.item.armor.GearsArmorMaterialsRegister.registerArmorMaterial;
 
+/**
+ * Knockback resistance is applied per piece (netherite uses 0.1, i.e. 0.4 for a full set); the attribute caps at 1.0.
+ */
 public class GearsArmorMaterials {
     public static final Holder<ArmorMaterial> ARISMAS = registerArmorMaterial(GearsOfValorMod.MOD_ID, "arismas", Util.make(new EnumMap<>(ArmorItem.Type.class), enumMap -> {
         enumMap.put(ArmorItem.Type.BOOTS, 2);
@@ -20,7 +23,7 @@ public class GearsArmorMaterials {
         enumMap.put(ArmorItem.Type.CHESTPLATE, 6);
         enumMap.put(ArmorItem.Type.HELMET, 2);
         enumMap.put(ArmorItem.Type.BODY, 5);
-    }), 10, SoundEvents.ARMOR_EQUIP_CHAIN, 1.0F, 0.5F, () -> Ingredient.of(ItemRegistry.ARISMA_SCALE.get()));
+    }), 10, SoundEvents.ARMOR_EQUIP_CHAIN, 1.0F, 0.05F, () -> Ingredient.of(ItemRegistry.ARISMA_SCALE.get()));
 
     public static final Holder<ArmorMaterial> PALADIN = registerArmorMaterial(GearsOfValorMod.MOD_ID, "paladin", Util.make(new EnumMap<>(ArmorItem.Type.class), enumMap -> {
         enumMap.put(ArmorItem.Type.BOOTS, 3);
@@ -28,7 +31,7 @@ public class GearsArmorMaterials {
         enumMap.put(ArmorItem.Type.CHESTPLATE, 8);
         enumMap.put(ArmorItem.Type.HELMET, 3);
         enumMap.put(ArmorItem.Type.BODY, 6);
-    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 2.0F, 2.0F, () -> Ingredient.of(ItemRegistry.NOBLE_GEM.get()));
+    }), 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 2.0F, 0.1F, () -> Ingredient.of(ItemRegistry.NOBLE_GEM.get()));
 
     public static final Holder<ArmorMaterial> REAPER = registerArmorMaterial(GearsOfValorMod.MOD_ID, "reaper", Util.make(new EnumMap<>(ArmorItem.Type.class), enumMap -> {
         enumMap.put(ArmorItem.Type.BOOTS, 4);
@@ -36,7 +39,7 @@ public class GearsArmorMaterials {
         enumMap.put(ArmorItem.Type.CHESTPLATE, 9);
         enumMap.put(ArmorItem.Type.HELMET, 4);
         enumMap.put(ArmorItem.Type.BODY, 7);
-    }), 20, SoundEvents.ARMOR_EQUIP_LEATHER, 3.0F, 3.0F, () -> Ingredient.of(ItemRegistry.SOULINITE.get()));
+    }), 20, SoundEvents.ARMOR_EQUIP_LEATHER, 3.0F, 0.15F, () -> Ingredient.of(ItemRegistry.SOULINITE.get()));
 
     public static final Holder<ArmorMaterial> WOODLAND = registerArmorMaterial(GearsOfValorMod.MOD_ID, "woodland", Util.make(new EnumMap<>(ArmorItem.Type.class), enumMap -> {
         enumMap.put(ArmorItem.Type.BOOTS, 1);

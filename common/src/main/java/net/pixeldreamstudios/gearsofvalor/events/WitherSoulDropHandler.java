@@ -8,18 +8,14 @@ import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.item.ItemStack;
 import net.pixeldreamstudios.gearsofvalor.registry.ItemRegistry;
 
-import java.util.Random;
-
 public class WitherSoulDropHandler {
-    private static final Random RANDOM = new Random();
-
     public static void init() {
         EntityEvent.LIVING_DEATH.register((entity, source) -> {
             if (!(entity instanceof WitherBoss) || entity.level().isClientSide()) {
                 return EventResult.pass();
             }
 
-            int count = 1 + RANDOM.nextInt(2); // 1–2
+            int count = 1 + entity.getRandom().nextInt(2); // 1-2
             ServerLevel level = (ServerLevel) entity.level();
             ItemStack drop = new ItemStack(ItemRegistry.UNSEEN_SOUL.get(), count);
 
